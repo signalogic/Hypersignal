@@ -34,7 +34,7 @@ For WinXP and up, Hypersignal must be run inside DOSBox (v0.74 or higher).  Here
     c:
     hsm
 
-Hypersignal should run and the menu interface should appear (a default hsmacro.cnf file is included in the zip file so you should see no prompts for mouse and graphics drivers).
+Hypersignal should run and the menu interface should appear (a default hsmacro.cnf file is included in the zip file so you should not see prompts for mouse and graphics drivers).
 
 <b>2</b> &nbsp; Inside Hypersignal, in the User Setup menu:
 
