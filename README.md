@@ -49,25 +49,27 @@ and Hypersignal the graphics config option should be set to 94 (Tseng Labs 4000 
 
 The default DOSBox config setting is "svga_s3", which is an S3 Trio64 card, considered to implement the VESA Std 800x600 mode in a widely compatible way.  This corresponds to graphics config selection 95, which also works fine with the svga_et4000 machine setting, but doesn't support the new grayscale and heatmap 2-D Spectrograph options (see below).
 
-<b>4</b> &nbsp; To speed up Hypersignal operation, press ctrl-F12 repeatedly ... something around "30000 cycles" (shown after "Cpu Speed" in the DOSBox main menu bar) seems to work fairly well.  A default CPU speed can also be set in the DOSBox config file.
+<b>4</b> &nbsp; To speed up Hypersignal operation, press Ctrl-F12 repeatedly ... something around "30000 cycles" (shown after "Cpu Speed" in the DOSBox main menu bar) seems to work fairly well.  A default CPU speed can also be set in the DOSBox config file.
 
-<b>5</b> &nbsp; After using the mouse inside Hypersignal (either menu or graphical displays), press ctrl-F10 to return mouse control to the desktop.  For example to take a screen cap of a Hypersignal display, adjust the display as needed with the mouse, including zoom and markers, then press ctrl-F10, then press Alt-PrntScrn, then use MS Paint or other program to paste from the clipboard.
+<b>5</b> &nbsp; After using the mouse inside Hypersignal (for either menu or graphical displays), press Ctrl-F10 to return mouse control to the desktop.  For example to take a screen cap of a Hypersignal display, adjust the display as needed with the mouse, including zoom and markers, then press Ctrl-F10, then press Alt-PrntScrn to copy to the Win clipboard, then use MS Paint or other program to paste from the Win clipboard.
 
 <b>6</b> &nbsp; Waveform file notes:
 
 * .tim and .wav file formats are supported in all time domain functions
-* the tim2wav and wav2tim macro functions can be used to convert
-* filenames are limited to 8 characters; the old DOS format of appending '~N' applies for longer filenames
+* the tim2wav and wav2tim macro functions can be used for format conversion
+* filenames are limited to 8 characters; vof longer filenames the old DOS format of appending '~N' applies
 
 <b>7</b> &nbsp; In the 2-D Spectrograph display function, to use 16-level grayscale, enter:
 
     G2,16
 
-in the CONTOUR field.  To use 19-level color, enter:
+in the CONTOUR field.  To use 19-level color "heatmap", enter:
 
     C3,19
   
-in the CONTOUR field.  Note that the second value is number of discrete gray or color levels.  Other levels can be entered also (up to 257) but currently won't improve contour resolution.  If someone wants to program Hypersignal source code to make use of custom DOS 256-bit color palettes in order to obtain better contour resolution, please contact Signalogic.
+in the CONTOUR field.  Note that the second value is number of discrete gray or color levels.  Other levels can be entered also (up to 257) but currently won't improve contour resolution.  The C3 heatmap option is modeled after newer R and Matlab "perceptual color domain" options (e.g. "inferno colors").
+
+If someone wants to program Hypersignal source code to make use of custom DOS 256-bit color palettes in order to obtain better contour resolution, please contact Signalogic.
 
 <a name="DocumentationSupport"></a>
 # Documentation, Support, and Contact
@@ -76,4 +78,4 @@ Original Hypersignal documentation is located here:
 
   ftp://ftp.signalogic.com/documentation/Hypersignal/
 
-For issues or questions about the download, please click on Issues above and post your questions.  If needed, you can send e-mail to Signalogic at info at signalogic dot com.
+For problems or questions about the download such as missing files, please click on Issues above and post an issue description.  If needed, you can send e-mail to Signalogic at info at signalogic dot com.
