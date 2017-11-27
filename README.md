@@ -3,6 +3,7 @@
 [Overview](#Overview)<br/>
 [Download](#Download)<br/>
 [Install Notes](#InstallNotes)<br/>
+[Sample Displays](#SampleDisplays)<br/>
 [Documentation, Support, and Contact](#DocumentationSupport)<br/>
 
 <a name="Overview"></a>
@@ -71,6 +72,19 @@ in the CONTOUR field.  Note that the second value is number of discrete gray or 
 
 If someone wants to program Hypersignal source code to make use of custom DOS 256-bit color palettes in order to obtain better contour resolution, please contact Signalogic.
 
+<a name="SampleDisplays"></a>
+# Sample Displays
+
+![Image](https://github.com/signalogic/Hypersignal/blob/master/images/dtmf_tones_2d_spectrograph.png?raw=true "DTMF tones, 2-D Spectrograph display")
+
+![Image](https://github.com/signalogic/Hypersignal/blob/master/images/speech_2d_spectrograph.png?raw=true "Before and after AMR-WB encoded speech, 2-D Spectrograph display")
+
+![Image](https://github.com/signalogic/Hypersignal/blob/master/images/speech_3d_spectrograph.png?raw=true "Before and after AMR-WB encoded speech, 3-D Spectrogram display")
+
+![Image](https://github.com/signalogic/Hypersignal/blob/master/images/wavelet_2d_spectrograph.png?raw=true "Wavelet display in 2-D Spectrograph format")
+
+![Image](https://github.com/signalogic/Hypersignal/blob/master/images/iir_filter_design.png?raw=true "IIR elliptic filter design")
+
 <a name="DocumentationSupport"></a>
 # Documentation, Support, and Contact
 
@@ -78,4 +92,4 @@ Complete Hypersignal documentation is located here:
 
   ftp://ftp.signalogic.com/documentation/Hypersignal/
 
-For problems or questions about the download such as missing files, please click on Issues above and post an issue description.  If needed, you can send e-mail to Signalogic at info at signalogic dot com.
+For problems or questions about the download such as missing files, please click on Issues above and post an issue description.  If needed, you can send e-mail to info at signalogic dot com.
