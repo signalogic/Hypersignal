@@ -57,7 +57,7 @@ The default DOSBox config setting is "svga_s3", which is an S3 Trio64 card, cons
 
 * .tim and .wav file formats are supported in all time domain functions
 * the tim2wav and wav2tim macro functions can be used for format conversion
-* filenames are limited to 8 characters; vof longer filenames the old DOS format of appending '~N' applies
+* filenames are limited to 8 characters; for longer filenames the old DOS convention appending '~N' applies
 
 <b>7</b> &nbsp; In the 2-D Spectrograph display function, to use 16-level grayscale, enter:
 
