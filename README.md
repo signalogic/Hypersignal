@@ -75,6 +75,8 @@ If someone wants to program Hypersignal source code to make use of custom DOS 25
 <a name="SampleDisplays"></a>
 # Sample Displays
 
+Below are a few sample displays, including frequency domain 2-D and 3-D, IIR filter design, and a simple difference equation.
+
 ![Image](https://github.com/signalogic/Hypersignal/blob/master/images/dtmf_tones_2d_spectrograph.png?raw=true "DTMF tones, 2-D Spectrograph display")
 
 ![Image](https://github.com/signalogic/Hypersignal/blob/master/images/speech_2d_spectrograph.png?raw=true "Before and after AMR-WB encoded speech, 2-D Spectrograph display")
@@ -84,6 +86,8 @@ If someone wants to program Hypersignal source code to make use of custom DOS 25
 ![Image](https://github.com/signalogic/Hypersignal/blob/master/images/wavelet_2d_spectrograph.png?raw=true "Wavelet display in 2-D Spectrograph format")
 
 ![Image](https://github.com/signalogic/Hypersignal/blob/master/images/iir_filter_design.png?raw=true "IIR elliptic filter design")
+
+![Image](https://github.com/signalogic/Hypersignal/blob/master/images/hanning_window_difference_equation.png?raw=true "Hanning window difference equation")
 
 <a name="DocumentationSupport"></a>
 # Documentation, Support, and Contact
