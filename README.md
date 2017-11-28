@@ -76,6 +76,9 @@ If someone wants to program Hypersignal source code to make use of custom DOS 25
 # Sample Displays
 
 Below are a few sample displays, including frequency domain 2-D and 3-D, IIR filter design, and a simple difference equation.
+<br/>
+&nbsp;
+<br/>
 
 ![Image](https://github.com/signalogic/Hypersignal/blob/master/images/dtmf_tones_2d_spectrograph.png?raw=true "DTMF tones, 2-D Spectrograph display")
 
