@@ -14,7 +14,7 @@ This page links to Hypersignal-Macro software download and documentation, and co
 Hypersignal-Macro was popular signal processing software in the 1990s and early 2000s, and can still be useful in some situations, including:
 
 * fast/quick time domain and frequency domain analysis, including sliding FFT, convolution, and 2-D and 3-D spectrographic display
-* import and display of arbitrary time domain waveform file formats, for example files with no headers, in hex ASCII formats, with odd number of nibbles per sample (e.g. 12 bits per sample), with swapped bytes, with mean or bias that should be subtracted, etc.
+* import and display of arbitrary time domain waveform file formats, for example files with no headers, in hex or decimal/fp ASCII formats, with odd number of nibbles per sample (e.g. 12 bits per sample), with swapped bytes, with mean or bias that should be subtracted, etc.
 * IIR and FIR filter design and application
 * difference equations
 * testing old / legacy DSP and data acquisition cards
