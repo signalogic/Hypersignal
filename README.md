@@ -75,7 +75,7 @@ If someone wants to program Hypersignal source code to make use of custom DOS 25
 <a name="SampleDisplays"></a>
 # Sample Displays
 
-Below are a few sample displays, including frequency domain 2-D and 3-D, IIR filter design, and a simple difference equation.
+Below are a few sample displays captured on a Win10 system, including frequency domain 2-D and 3-D, IIR filter design, and a simple difference equation.
 <br/>
 &nbsp;
 <br/>
