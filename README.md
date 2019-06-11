@@ -97,12 +97,12 @@ Below are a few sample displays captured on a Win10 system, including frequency 
 
 Complete Hypersignal documentation is located here:
 
-  ftp://ftp.signalogic.com/documentation/Hypersignal/
+&nbsp;&nbsp;&nbsp;ftp://ftp.signalogic.com/documentation/Hypersignal/
 
 Legacy web pages are located here:
 
-  https://www.signalogic.com/hypersignal_macro
+&nbsp;&nbsp;&nbsp;https://www.signalogic.com/hypersignal_macro
 
-  https://www.signalogic.com/hypersignal_acoustic
+&nbsp;&nbsp;&nbsp;https://www.signalogic.com/hypersignal_acoustic
 
 For problems or questions about the download such as missing files, please click on Issues above and post an issue description.  If needed, you can send e-mail to info at signalogic dot com.
