@@ -99,4 +99,10 @@ Complete Hypersignal documentation is located here:
 
   ftp://ftp.signalogic.com/documentation/Hypersignal/
 
+Legacy web pages are located here:
+
+  https://www.signalogic.com/hypersignal_macro
+
+  https://www.signalogic.com/hypersignal_acoustic
+
 For problems or questions about the download such as missing files, please click on Issues above and post an issue description.  If needed, you can send e-mail to info at signalogic dot com.
