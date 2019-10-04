@@ -39,8 +39,8 @@ Hypersignal should run and the menu interface should appear (a default hsmacro.c
 
 <b>2</b> &nbsp; Inside Hypersignal, in the User Setup menu:
 
-    -set the DRIVE field to C:
-    -set the SUBDIRECTORY field to \waveform\
+    set the DRIVE field to C:
+    set the SUBDIRECTORY field to \waveform\
 
 <b>3</b> &nbsp; For best graphics results, the DOSBox config file should have this setting:
 
@@ -55,6 +55,8 @@ After doing that, the Target entry might look something like:
     "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -userconf -machine svga_et4000
 
 which is effectively the DOSBox cmd line that will be executed when you double-click on the DOSBox icon.  Keep in mind the above cmd line is just an example only and the correct cmd line for your Win system is likely to be different.
+
+After changing the DOSBox config file or Properties cmd line, DOSBox has to be restarted for changes to take effect.  You can exit and restart from Step 1 above.
 
 The default DOSBox config setting is "svga_s3", which is an S3 Trio64 card, considered to implement the VESA Std 800x600 mode in a widely compatible way.  This corresponds to graphics config selection 95, which also works fine with the svga_et4000 machine setting, but doesn't support the new grayscale and heatmap 2-D Spectrograph options (see below).
 
