@@ -46,7 +46,7 @@ Hypersignal should run and the menu interface should appear (a default hsmacro.c
 
     machine=svga_et4000
 
-and the Hypersignal graphics config option should be set to 94 (Tseng Labs 4000 video card, 1024x768 256 color). Probably Tseng Labs 3000 would work also (800x600 256 color).  If you're not using the DOSBox config file, or otherwise want to stay lean and mean (in the true spirit of Hypersignal :-), you can right-click the DOSBox desktop icon, select Properties | Shortcut, and add the following to the "Target" entry:
+and the Hypersignal graphics config option should be set to 94 (Tseng Labs 4000 video card, 1024x768 256 color). Probably Tseng Labs 3000 would work also (800x600 256 color).  If you're not using the DOSBox config file, or otherwise want to stay lean and mean (in the true spirit of Hypersignal :-), you can right-click the DOSBox desktop icon, select Properties and then the Shortcut tab, and add the following to the "Target" entry:
 
     -machine svga_et4000
 
@@ -54,7 +54,7 @@ After doing that, the Target entry might look something like:
 
     "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -userconf -machine svga_et4000
 
-which is effectively the DOSBox cmd line that will be executed when you double-click on the DOSBox icon.  Keep in mind the above cmd line is just an example only and the correct cmd line for your Win system is likely to be different.
+Then click on Apply to save.  The Target entry is effectively the DOSBox cmd line that will be executed when you double-click on the DOSBox icon.  Keep in mind the above cmd line is just an example only and the correct cmd line for your Win system is likely to be different.
 
 After changing the DOSBox config file or Properties cmd line, DOSBox has to be restarted for changes to take effect.  You can exit and restart from Step 1 above.
 
