@@ -56,7 +56,7 @@ After doing that, the Target entry might look something like:
 
 Then click on Apply to save.  The Target entry is effectively the DOSBox cmd line that will be executed when you double-click on the DOSBox icon.  Keep in mind the above cmd line is just an example only and the correct cmd line for your Win system is likely to be different.
 
-After changing the DOSBox config file or Properties cmd line, DOSBox has to be restarted for changes to take effect.  You can exit and restart from Step 1 above.
+After changing the DOSBox config file or Properties cmd line, DOSBox has to be restarted for changes to take effect.  If you're already inside Hypersignal you can exit and restart from Step 1 above.
 
 The default DOSBox config setting is "svga_s3", which is an S3 Trio64 card, considered to implement the VESA Std 800x600 mode in a widely compatible way.  This corresponds to graphics config selection 95, which also works fine with the svga_et4000 machine setting, but doesn't support the new grayscale and heatmap 2-D Spectrograph options (see below).
 
