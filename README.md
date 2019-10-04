@@ -46,7 +46,15 @@ Hypersignal should run and the menu interface should appear (a default hsmacro.c
 
     machine=svga_et4000
 
-and the Hypersignal graphics config option should be set to 94 (Tseng Labs 4000 video card, 1024x768 256 color). Probably Tseng Labs 3000 would work also (800x600 256 color).
+and the Hypersignal graphics config option should be set to 94 (Tseng Labs 4000 video card, 1024x768 256 color). Probably Tseng Labs 3000 would work also (800x600 256 color).  If you're not using the DosBox config file, or otherwise want to stay lean and mean (in the true spirit of Hypersignal :-), you can right-click the DosBox desktop icon, select Properties | Shortcut, and add the following to the Target line:
+
+    -machine svga_et4000
+
+After doing that, the Target line might look something like:
+
+    "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -userconf -machine svga_et4000
+
+which is effectively the DosBox cmd line that will be executed when you double-click on the DosBox icon.  Keep in mind the above example is just an example only and the correct cmd line varies between Win platforms.
 
 The default DOSBox config setting is "svga_s3", which is an S3 Trio64 card, considered to implement the VESA Std 800x600 mode in a widely compatible way.  This corresponds to graphics config selection 95, which also works fine with the svga_et4000 machine setting, but doesn't support the new grayscale and heatmap 2-D Spectrograph options (see below).
 
