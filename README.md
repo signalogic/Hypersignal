@@ -54,7 +54,7 @@ After doing that, the Target entry might look something like:
 
     "C:\Program Files (x86)\DOSBox-0.74\DOSBox.exe" -userconf -machine svga_et4000
 
-Then click on Apply to save.  The Target entry is effectively the DOSBox cmd line that will be executed when you double-click on the DOSBox icon.  Keep in mind the above cmd line is just an example only and the correct cmd line for your Win system is likely to be different.
+Then click on Apply to save.  The Target entry is effectively the DOSBox cmd line that will be executed when you double-click on the DOSBox icon.  Keep in mind the above cmd line is only an example and the correct cmd line for your Win system is likely to be different.
 
 After changing the DOSBox config file or Properties cmd line, DOSBox has to be restarted for changes to take effect.  If you're already in Hypersignal then exit and restart from Step 1 above.
 
