@@ -42,7 +42,7 @@ Hypersignal should run and the menu interface should appear (a default hsmacro.c
     set the DRIVE field to C:
     set the SUBDIRECTORY field to \waveform\
 
-Note that if you are running Win10 or Win2 with Ransomware Protection enabled, you will need to make an exception for dosbox.exe. Otherwise when you run filter design, FFT, difference equations, etc Hypersignal will issue a message such as "invalid file access" or "insufficient disk space" or other confusing message when it tries to write out files to the waveform subfolder.
+Note that if you are running Win10 or Win11 with Ransomware Protection enabled, you will need to make an exception for dosbox.exe. Otherwise when you run filter design, FFT, difference equations, etc Hypersignal will issue a message such as "invalid file access" or "insufficient disk space" or other confusing message when it tries to write out files to the waveform subfolder.
 
 <b>3</b> &nbsp; For best graphics results, the DOSBox config file should have this setting:
 
@@ -62,7 +62,7 @@ After changing the DOSBox config file or cmd line, DOSBox has to be restarted fo
 
 The default DOSBox config setting is "svga_s3", which is an S3 Trio64 card, considered to implement the VESA Std 800x600 mode in a widely compatible way.  This corresponds to graphics config selection 95, which also works fine with the svga_et4000 machine setting, but doesn't support the new grayscale and heatmap 2-D Spectrograph options (see below).
 
-Note that for higher resolution display systems (1920 x 1080 or higher) you may want to increase the default size of Hypersignal's main menu interface. This can be done by doing to your DosBox install folder and right-clicking "Open" on
+Note that for higher resolution displays (1920 x 1080 or higher) you may want to increase the default size of Hypersignal's main menu interface. This can be done by doing to your DosBox install folder and right-clicking "Open" on
 
     DOSBox 0.74-3 Options.bat
 
