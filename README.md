@@ -42,6 +42,8 @@ Hypersignal should run and the menu interface should appear (a default hsmacro.c
     set the DRIVE field to C:
     set the SUBDIRECTORY field to \waveform\
 
+Note that if you are running Win10 or Win2 with Ransomware Protection enabled, you will need to make an exception for dosbox.exe. Otherwise when you run filter design, FFT, difference equations, etc Hypersignal will issue a message such as "invalid file access" or "insufficient disk space" or other confusing message when it tries to write out files to the waveform subfolder.
+
 <b>3</b> &nbsp; For best graphics results, the DOSBox config file should have this setting:
 
     machine=svga_et4000
@@ -56,9 +58,20 @@ After doing that, the Target entry might look something like:
 
 Then click on Apply to save.  The Target entry is effectively the DOSBox cmd line that will be executed when you double-click the DOSBox icon.  Keep in mind the above cmd line is only an example and the correct cmd line for your Win system is likely to be different.
 
-After changing the DOSBox config file or cmd line, DOSBox has to be restarted for changes to take effect.  If you're already in Hypersignal then exit and restart from Step 1 above.
+After changing the DOSBox config file or cmd line, DOSBox has to be restarted for changes to take effect. If you're already in Hypersignal then exit and restart from Step 1 above.
 
 The default DOSBox config setting is "svga_s3", which is an S3 Trio64 card, considered to implement the VESA Std 800x600 mode in a widely compatible way.  This corresponds to graphics config selection 95, which also works fine with the svga_et4000 machine setting, but doesn't support the new grayscale and heatmap 2-D Spectrograph options (see below).
+
+Note that for higher resolution display systems (1920 x 1080 or higher) you may want to increase the default size of Hypersignal's main menu interface. This can be done by doing to your DosBox install folder and right-clicking "Open" on
+
+    DOSBox 0.74-3 Options.bat
+
+which opens the DosBox config file in Notepad, and then editing the following fields as follows:
+
+    windowresolution=1280x960
+    output=ddraw
+
+and saving the config file. The 1280x960 value doubles the original 1990s-era 640x480 screen size. Of course you can make the increase any value you need.
 
 <b>4</b> &nbsp; To speed up Hypersignal operation, press Ctrl-F12 repeatedly ... something around "30000 cycles" (shown after "Cpu Speed" in the DOSBox main menu bar) seems to work fairly well.  A default CPU speed can also be set in the DOSBox config file.
 
