@@ -71,7 +71,7 @@ which opens the DosBox config file in Notepad, then editing the following fields
     windowresolution=1280x960
     output=ddraw
 
-and then saving the config file. The 1280x960 value doubles the original 1990s-era 640x480 screen size. A 1920x1440 value is a 3x increase and looks decent on 1080p displays, for example if you need to line up Hypersignal waveform displays with Wireshark pcap audio displays. Of course you can make the increase any value you need.
+and then saving the config file. A 1280x960 value doubles the original 1990s-era 640x480 screen size. A 1920x1440 value is a 3x increase and looks decent on 1080p displays, for example if you need to line up Hypersignal waveform displays with Wireshark pcap audio displays. Of course you can make the increase any value you need.
 
 <b>4</b> &nbsp; To speed up Hypersignal operation, press Ctrl-F12 repeatedly ... something around "30000 cycles" (shown after "Cpu Speed" in the DOSBox main menu bar) seems to work fairly well.  A default CPU speed can also be set in the DOSBox config file.
 
